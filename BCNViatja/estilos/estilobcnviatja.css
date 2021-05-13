@@ -1,0 +1,431 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-dic-2018, 20:13:27
+    Author     : Roberto
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('../img/backimg.jpg');
+}
+header{
+    width:45%;
+    background-color:#AFD7ED;
+    border-radius: 20px;
+    padding: 4em;
+    margin-left:4em;
+    margin-top:4em;
+    margin-right:5px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    text-align: center;
+
+}
+
+@font-face {
+font-family: Fortnite;
+src: url(../fuentes/Fortnite.ttf);
+}
+h1{
+    color: royalblue; 
+    font-family: Fortnite;
+    font-size: 100px;
+    
+}
+#contenedor{
+    width:100%;
+    height:100%;
+    max-width:1000px;
+    border-radius: 20px;   
+    margin: 0 auto;
+    padding:2em;
+    box-sizing: border-box;
+}
+
+.ini{
+    width:40%;
+    height:80%;
+    background-color:#D0EBF3;
+    border: 1px solid white;
+    border-radius: 20px;
+    float:left;
+    padding: 2em;
+    margin-left:1em;
+    margin-top:1em;
+    margin-right:5px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+    
+}
+
+.datos{
+        padding:1em;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+        margin-top:3px;
+}
+
+.boton{
+        padding:1em;
+        width:40%;
+        font-weight: bold;   
+       border-radius: 20px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+        margin-top:3px;
+    
+}
+
+
+
+/*----------------------------------------------------------------PAGINA TICKETS  y RECIBOS-----------*/
+#contenedor2{
+    width:100%;
+    height:100%;
+/*    max-width:1000px;*/
+    border-radius: 20px;   
+    padding:2em;
+    box-sizing: border-box;
+
+}
+
+.nav{
+    float:left;
+    width:20%;
+    height:90%;
+    margin-top:1em;
+    border-radius:20px;
+    box-sizing: border-box;
+    
+}
+
+
+.tabla{
+    float:left;
+    width:50%;
+    height:90%;
+    padding:1em;
+    margin-left:2em;
+    background-color:#D0EBF3;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top:1em;
+    box-sizing: border-box;
+}
+#navigationMenu{
+  list-style-type: none;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.menuPrincipal {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight:bold;
+  font-family: Fortnite;
+  font-size: 50px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+table{
+    padding: 8px;
+    font-size:30px;
+    width:100%;   
+}
+
+th, td {
+  padding: 8px;
+  text-align: justify;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla tr:hover {background-color:#f5f5f5;}
+
+/*----------------------PAGINA HORARIOS--------------------------*/
+
+.tabla_comprar{
+    float:left;
+    max-width:70%;
+    height:90%;
+    padding:1em;
+    margin-left:2em;
+    background-color:#D0EBF3;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top:1em;
+    box-sizing: border-box;
+    
+}
+
+.tabla_comprar td{
+    padding:10px;
+}
+.titulo_horarios{
+    font-size:30px;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+/*-----------------------------CONTACTA----------------------------------------*/
+
+.contacta_titulo{
+    font-family: Fortnite;
+    font-size: 80px;
+    color: #000;
+}
+.contacto{
+    float:left;
+    margin-left:100px;
+    max-width:1000px;
+    height:700px;
+    background-color: #D0EBF3;
+    padding:2em;
+    border-radius:20px;
+}
+
+form{
+    padding:2px;
+    height:60%;
+}
+
+.asunto{
+    border-radius:4px;
+    width:50%;
+}
+textarea{
+    width:50%;
+    height:30%;
+    border-radius:4px;
+}
+
+.boton_enviar{
+     padding:0.5em;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+        margin-top:3px;
+        margin-left:20%;
+}
+/*-----------------------RESPONSIVIDAD--------------------------------*/
+@media screen and (max-width: 800px){
+    
+    header{
+            width:30%;
+    height:20%;
+    background-color:#AFD7ED;
+    border-radius: 20px;
+    padding: 1em;
+    margin-left:10px;
+    margin-top:5px;
+    margin-right:5px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+    text-align: center;
+    }
+    
+    h1{
+    color: royalblue; 
+    font-family: Fortnite;
+    font-size: 30px;
+    
+    }
+
+#contenedor{
+    width:80%;
+    height:100%;
+    max-width:1000px;
+    border-radius: 20px;
+    
+    margin: 0 auto;
+    padding:2em;
+    box-sizing: border-box;
+}
+
+.ini{
+    width:45%;
+    height:80%;
+    background-color:#D0EBF3;
+    border: 1px solid white;
+    border-radius: 20px;
+    float:left;
+    padding: 4em;
+    margin-left:4em;
+    margin-top:4em;
+    margin-right:5px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+    
+}
+
+.datos{
+        padding:1em;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+        margin-top:3px;
+}
+
+.boton{
+        padding:1em;
+        width:40%;
+        font-weight: bold;   
+       border-radius: 20px;
+    -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,1);
+        box-shadow: -4px 4px 16px -4px rgba(0,0,0,1); 
+        margin-top:3px;
+    
+}
+
+}
+
+@media screen and (max-width: 1000px){
+    
+    table{
+        padding: 5px;
+        font-size:20px;
+        width:100%;
+
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    .tabla{
+        float:right;
+        width:50%;
+        height:60%;
+        padding:1em;
+        margin-left:1opx;
+        background-color:#D0EBF3;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin-top:1em;
+        box-sizing: border-box;
+    }
+    
+
+    #navigationMenu li{
+    list-style:none;
+    height:39px;
+    padding:2px;
+    width:40px;
+}
+    #navigationMenu span{
+/*         Container properties */
+        width:0;
+        left:38px;
+        padding:0;
+        position:absolute;
+        overflow:hidden;
+
+/*         Text properties */
+        font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-weight:bold;
+        letter-spacing:0.6px;
+        white-space:nowrap;
+        line-height:39px;
+
+/*         CSS3 Transition: */
+        -webkit-transition: 0.25s;
+
+/*         Future proofing (these do not work yet): */
+        -moz-transition: 0.25s;
+        transition: 0.25s;
+    }
+
+    #navigationMenu a{
+/*        // The background sprite: */
+        background:url('img/navigation.jpg') no-repeat;
+
+        height:39px;
+        width:38px;
+        display:block;
+        position:relative;
+    }
+
+     General hover styles 
+
+    #navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+    #navigationMenu a:hover{
+        text-decoration:none;
+
+/*         CSS outer glow with the box-shadow property */
+        -moz-box-shadow:0 0 5px #9ddff5;
+        -webkit-box-shadow:0 0 5px #9ddff5;
+        box-shadow:0 0 5px #9ddff5;
+    }
+
+    #navigationMenu .home { background-position:0 0;}
+    #navigationMenu .home:hover {   background-position:0 -39px;}
+    #navigationMenu .home span{
+        background-color:#7da315;
+        color:#3d4f0c;
+        text-shadow:1px 1px 0 #99bf31;
+    }
+
+     Blue Button 
+
+    #navigationMenu .about { background-position:-38px 0;}
+    #navigationMenu .about:hover { background-position:-38px -39px;}
+    #navigationMenu .about span{
+        background-color:#1e8bb4;
+        color:#223a44;
+        text-shadow:1px 1px 0 #44a8d0;
+    }
+
+     Orange Button 
+
+    #navigationMenu .services { background-position:-76px 0;}
+    #navigationMenu .services:hover { background-position:-76px -39px;}
+    #navigationMenu .services span{
+        background-color:#c86c1f;
+        color:#5a3517;
+        text-shadow:1px 1px 0 #d28344;
+    }
+
+     Yellow Button 
+
+    #navigationMenu .portfolio { background-position:-114px 0;}
+    #navigationMenu .portfolio:hover{ background-position:-114px -39px;}
+    #navigationMenu .portfolio span{
+        background-color:#d0a525;
+        color:#604e18;
+        text-shadow:1px 1px 0 #d8b54b;
+    }
+
+     Purple Button 
+
+    #navigationMenu .contact { background-position:-152px 0;}
+    #navigationMenu .contact:hover { background-position:-152px -39px;}
+    #navigationMenu .contact span{
+        background-color:#af1e83;
+        color:#460f35;
+        text-shadow:1px 1px 0 #d244a6;
+    }
+    
+}
